@@ -1,4 +1,6 @@
-##RusPython Translator
+#  RuPy
+
+
 Добро пожаловать в RusPython Translator!
 Эта библиотека позволяет писать и выполнять Python-код, используя
 русские аналоги стандартных ключевых слов Python. Она создана с целью
@@ -63,11 +65,11 @@ import ruspython_translator
   ВЫВЕСТИ i
 """
 
-# Вариант 1: Трансляция и затем выполнение
+ Вариант 1: Трансляция и затем выполнение
 python_code = ruspython_translator.перевести(русский_код)
 exec(python_code)
 
-# Вариант 2: Прямое выполнение (если есть такая функция)
+Вариант 2: Прямое выполнение (если есть такая функция)
 ruspython_translator.выполнить(русский_код) # Или ruspython_translator.run(русский_код)
 IGNORE_WHEN_COPYING_START
 content_copy
